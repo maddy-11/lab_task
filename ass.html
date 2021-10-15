@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <style>
+        .rounded-5{
+            border-radius: 12px;
+        }
+        .button{
+            width: 80px;
+            background-color: green;
+            margin-right: 5px;
+            border: none;
+            padding: 2px;
+        }
+        .buttons{
+            
+            display: flex;
+            width: 100%;
+            justify-content: right;
+            
+            
+        }
+        input{
+            width: 240px;
+        }
+        .white{
+            color: white;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container rounded-5 col-lg-4 mt-5" style="border: #0099CC solid 3px";">
+        <div class="container p-4">
+            <table>
+                <tr >
+                   <td > <label>UserName</label></td>
+                   <td class="ps-5 "><input type="text"> </td>
+                </tr >
+                <td> <label>Password</label></td>
+                   <td class="ps-5"><input type="password"> </td>
+            </table>
+            <br>
+        <div class="buttons col-lg-6">
+        <input type="button" class=" button  text-white" value="Login">
+        <input type="button" class=" button  text-white" value="Forgot">
+        
+        </div>
+        <div class="container border border-1 border-info  m-2 mt-4" style="background-color: #DBE3FF; font-size: 12px;">
+            ! Faculty/HoD/Director Login Here
+        </div>
+        </div>
+
+
+        </div>
+        <div class="container mt-5">
+        <div class="d-grid gap-2 d-md-flex justify-content:center md-center ">
+            <input type="button" class=" bg-primary text-white" value="Student Console">
+            <input type="button" class=" bg-primary text-white" value="Parent Console"> 
+            <input type="button" class=" bg-primary text-white" value="Registrar/Exams">
+            <input type="button" class=" bg-primary text-white" value="HRMS">
+            <input type="button" class=" bg-primary text-white" value="Student Fee">
+            <input type="button"class="  bg-primary text-white" value="Inventory">
+            <input type="button" class=" bg-primary text-white" value="Library">
+            <input type="button" class=" bg-primary text-white" value="Timetable">
+            
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
